@@ -1,0 +1,44 @@
+h1 {
+  background-color: red;
+  padding: 30px;
+}
+
+h2 {
+  background-color: orange;
+  margin: 30px;
+}
+
+
+/* Minden CSS szabályrendszer egy úgynevezett selector-ral (kiválasztó rész) kezdődik, 
+hogy meghatározhassuk mely elemeket szeretnénk formázni az utána leírt szabályokkal. 
+A selector lehet egyszerűen egy elem neve, pl. h1 vagy p, de nagyon sok más kiválasztási 
+lehetőség van. Egyelőre maradjunk a tag-ek nevénél. A selector után jön egy nyitó 
+kapcsos zárójel { majd a formázási szabályok és végül egy záró kapcsos zárójel }. 
+Ez itt egy üres CSS szabályrendszer (üres, mert nem tartalmaz formázási szabályt):
+
+p {
+  
+}
+
+Egy formázási szabály két részből áll: egy tulajdonság (background - háttér) és egy 
+hozzá tartozó érték (pl. red - piros). Egy kettősponttal : vannak elválasztva 
+(és egy szóközzel, hogy szebb legyen), az szabály pedig egy pontosvesszővel ; van lezárva.
+ Ilyen szabályból bármennyi lehet egy rendszerben, akár egy, akár több.
+
+ p {
+  background: red;
+}
+
+div {
+  background: orange;
+  padding: 20px;
+}
+
+A két leggyakrabban használt CSS tulajdonság a margin és a padding. 
+Ezek segítségével beállítható, hogy a formázott elem milyen távol legyen más elemektől. 
+A margin (margó) egy láthatatlan eltartó távolság, míg a padding a dobozon belül a 
+tartalom és a doboz széle közötti távolság, de így például a háttér szín rajta látszódni 
+fog. Rengeteg más CSS tulajdonság van, aminek értéket lehet beállítani, de csak akkor 
+lesz érvényes a szabály, ha az az érték megfelelő a tulajdonsághoz. Margónak például 
+bármilyen számot (egy mértékegységgel, pl. px vagy %) be lehet állítani, de nem lehet 
+orange értéket megadni neki. */
